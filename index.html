@@ -6,10 +6,10 @@
 :root{--n:#06182c;--b:#0b66ad;--y:#ffd12a;--bg:#f5f8fb;--t:#18283a;--mut:#607287}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,sans-serif;color:var(--t);background:var(--bg);line-height:1.55}
 header{position:sticky;top:0;z-index:20;background:#06182cf5;color:#fff;border-bottom:1px solid #ffffff18}
-.nav{max-width:1120px;margin:auto;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:900;font-size:18px}.brand b{color:var(--y)}.nav a{color:#fff;text-decoration:none;font-size:14px;font-weight:700;margin-left:16px}
+.brand{display:flex;align-items:center;gap:10px}.brand img{width:48px;height:48px;object-fit:contain;border-radius:50%}.nav{max-width:1120px;margin:auto;padding:15px 5%;display:flex;align-items:center;justify-content:space-between;gap:15px}.brand{font-weight:900;font-size:18px}.brand b{color:var(--y)}.nav a{color:#fff;text-decoration:none;font-size:14px;font-weight:700;margin-left:16px}
 .hero{color:#fff;padding:76px 5% 65px;background:linear-gradient(135deg,#041426,#0a4f86 65%,#0a7fb6);position:relative;overflow:hidden}
 .wrap{max-width:1120px;margin:auto;position:relative;z-index:1}.tag{display:inline-block;padding:7px 13px;border:1px solid #ffffff45;border-radius:999px;font-size:12px;font-weight:700;letter-spacing:.5px}
-.hero h1{font-size:clamp(40px,7vw,72px);line-height:1;margin:18px 0}.hero h1 span{color:var(--y)}.slogan{font-size:24px;font-weight:800;margin-bottom:12px}.hero p{max-width:720px;font-size:18px;color:#e3f1fb}
+.hero-logo{display:block;width:min(230px,60vw);height:auto;margin:0 0 20px;border-radius:50%;box-shadow:0 8px 28px #0004}.hero h1{font-size:clamp(40px,7vw,72px);line-height:1;margin:18px 0}.hero h1 span{color:var(--y)}.slogan{font-size:24px;font-weight:800;margin-bottom:12px}.hero p{max-width:720px;font-size:18px;color:#e3f1fb}
 .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:25px}.btn{display:inline-block;text-decoration:none;padding:13px 18px;border-radius:9px;font-weight:800}.wa{background:var(--y);color:#132235}.outline{border:1px solid #ffffff66;color:#fff}
 .phones{margin-top:24px;padding:15px 18px;display:inline-block;border-radius:12px;background:#ffffff12;border:1px solid #ffffff30}.phones strong{display:block;color:var(--y);margin-bottom:4px}.phones a{color:white;text-decoration:none;font-weight:700;margin-right:13px;white-space:nowrap}
 section{padding:64px 5%}.title{text-align:center;color:var(--n);font-size:34px;margin:0 0 10px}.sub{text-align:center;color:var(--mut);max-width:730px;margin:0 auto 32px}
@@ -20,8 +20,8 @@ section{padding:64px 5%}.title{text-align:center;color:var(--n);font-size:34px;m
 footer{background:#03101f;color:#b9c9d8;text-align:center;padding:30px 5%;font-size:14px}.float{position:fixed;right:17px;bottom:17px;z-index:30;background:#18a96b;color:#fff;text-decoration:none;font-weight:900;padding:14px 18px;border-radius:999px;box-shadow:0 8px 25px #0004}
 @media(max-width:700px){.nav a{display:none}.contact{grid-template-columns:1fr}.hero{padding-top:58px}section{padding:52px 5%}.float{right:12px;bottom:12px}.phones a{display:inline-block;margin:3px 10px 3px 0}.phones{max-width:100%}}
 </style></head><body>
-<header><div class="nav"><div class="brand">⚡ VALLE <b>TÉCNICO ELECTRÓNICO</b></div><div><a href="#servicios">Servicios</a><a href="#tarifas">Tarifas</a><a href="#contacto">Contacto</a></div></div></header>
-<section class="hero"><div class="wrap"><span class="tag">SERVICIO TÉCNICO ESPECIALIZADO</span>
+<header><div class="nav"><div class="brand"><img src="logo-valle.png" alt="Logo de Valle Técnico Electrónico"><span>VALLE <b>TÉCNICO ELECTRÓNICO</b></span></div><div><a href="#servicios">Servicios</a><a href="#tarifas">Tarifas</a><a href="#contacto">Contacto</a></div></div></header>
+<section class="hero"><div class="wrap"><img class="hero-logo" src="logo-valle.png" alt="Valle Técnico Electrónico, servicio técnico especializado"><span class="tag">SERVICIO TÉCNICO ESPECIALIZADO</span>
 <h1>Tu equipo en <span>buenas manos.</span></h1><div class="slogan">Diagnóstico y reparación a nivel de componente.</div>
 <p>Reparación de equipos electrónicos, placas, televisores, computadoras, electrodomésticos y electricidad residencial. Primero diagnosticamos; después te explicamos la solución.</p>
 <div class="actions"><a class="btn wa" href="https://wa.me/5354026003?text=Hola%2C%20quiero%20consultar%20por%20la%20reparaci%C3%B3n%20de%20mi%20equipo.">📲 WhatsApp 54026003</a><a class="btn outline" href="#servicios">🔧 Ver servicios</a></div>
